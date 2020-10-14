@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/bg.jpg);
+}
+
+.form {
+    position: relative;
+    background-color: #fff;
+    width: 320px;
+    margin: 0 auto;
+    border: 1px solid #cfdede;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.03);
+    padding: 53px 28px 30px 28px;
+    margin-top: 100px;
+}
+.form::before {
+    position: absolute;
+    content: "Create an account";
+    background-image: url(../img/ribbon-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 149px;
+    height: 25px;
+    top: -4px;
+    left: 29px;
+    padding-top: 7px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 12px;
+    letter-spacing: -0.12px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15),inset 0px 0px 5px 0px rgba(0, 0, 0, 0.03);   
+}
+.form label {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 11px;
+    text-transform: capitalize;
+}
+.form label span {
+    color: #01b3b3;
+}
+.form input {
+    display: block;
+    width: 100%;
+}
+.email, .password, .password-confirm {
+    margin-bottom: 18px;
+    height: 32px;
+    background-image: url(../img/bg.jpg);
+    border: 1px solid #cfdede;
+}
+.button {
+    background-color: #01b3b3;
+    border: none;
+    border-radius: 4px;
+    background-image: url(../img/btn-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2),inset 0px 1px 2px 0px rgba(255, 255, 255, 0.004);
+    height: 45px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 34px;
+}
+.email-label {
+}
+.email {
+}
+.password-label {
+}
+.password {
+}
+.password-confirm-label {
+}
+.password-confirm {
+}
+.button {
+}
