@@ -1,1 +1,0 @@
-# mgeorgievsky.github.io
