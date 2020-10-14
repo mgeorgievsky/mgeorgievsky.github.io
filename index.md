@@ -8,3 +8,5 @@
 [Урок 9](https://mgeorgievsky.github.io/lesson-09/app/) - верстка макета из 7 урока, но с использованием Bootstrap
 
 [Урок 10](https://github.com/mgeorgievsky/mgeorgievsky.github.io/tree/main/lesson-10) - знакомство с LESS
+
+[Урок 13](https://mgeorgievsky.github.io/lesson-13/) - Pixel Perfect верстка
