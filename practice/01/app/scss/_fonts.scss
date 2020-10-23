@@ -1,0 +1,16 @@
+// MIXIN FOR ADDING FONTS
+@mixin font($fname, $fstyle, $fweight, $furl) {
+	@font-face {
+		font-family: $fname;
+		font-style: $fstyle;
+		font-weight: $fweight;
+		// font-display: swap; // Uncomment to initially display system fonts
+		src: local($fname), url($furl) format('woff');
+	}
+}
+
+// ADD FONTS BELOW
+@include font('Proxima Nova', normal, 300, '../fonts/Proxima-Nova-Light.woff');
+@include font('Proxima Nova', normal, 400, '../fonts/Proxima-Nova-Regular.woff');
+@include font('Proxima Nova', normal, 600, '../fonts/Proxima-Nova-Semibold.woff');
+@include font('Proxima Nova', normal, 700, '../fonts/Proxima-Nova-Bold.woff');

@@ -1,0 +1,66 @@
+// GLOBAL STYLES
+html {
+	box-sizing: border-box;
+}
+
+*, *:after, *:before {
+	box-sizing: inherit;
+}
+
+::placeholder {
+	color: #666;
+}
+
+::selection {
+	background-color: $color-accent;
+	color: #fff;
+}
+
+body {
+	font-family: $mainfont;
+	font-size: $fontsize;
+	min-width: 320px;
+	position: relative;
+	line-height: $lineheight;
+	overflow-x: hidden;
+	color: $color-text;
+}
+
+h1, h2, h3, h4, h5, h6, button, ul {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	font-family: $mainfont;
+	color: $color-link;
+	text-decoration: none; 
+}
+
+ul {
+	list-style: none;
+}
+
+
+
+input, textarea {
+	outline: none;
+	&:focus:required:invalid { border-color: red }
+	&:required:valid { border-color: green }
+}
+
+.btn {
+	background-color: $color-button;
+	border: none;
+	border-radius: 8px;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 16px;
+	padding: 24px;
+}
+
+
+
+
+

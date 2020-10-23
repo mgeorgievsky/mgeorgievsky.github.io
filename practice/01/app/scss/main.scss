@@ -1,0 +1,35 @@
+@import 'variables';
+@import 'fonts';
+@import 'global';
+
+// MAIN STYLES
+
+.first-screen {
+    padding-top: 20px;
+}
+
+.first-screen__logo img {
+    width: 206px;
+    height: 70px;
+}
+
+.first-screen__consultation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.first-screen__phone-link {
+    display: inline-block;
+    color: $color-darkgrey1;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.first-screen__consultation-button {
+    font-size: 12px;
+    line-height: 12px;
+    padding: 19px 26px;
+}
+
